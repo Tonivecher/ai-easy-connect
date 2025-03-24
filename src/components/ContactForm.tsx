@@ -51,7 +51,7 @@ const ContactForm = () => {
         <div className="max-w-xl mx-auto glass-card p-8 animate-fade-in">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="block mb-2 font-medium">
+              <label htmlFor="name" className="block mb-2 font-medium text-ai-green">
                 Ваше имя
               </label>
               <Input
@@ -61,12 +61,12 @@ const ContactForm = () => {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="bg-ai-dark/50 border-ai-light/20 focus:border-ai-blue"
+                className="bg-ai-dark/50 border-ai-light/20 focus:border-ai-blue text-ai-light"
               />
             </div>
             
             <div>
-              <label htmlFor="phone" className="block mb-2 font-medium">
+              <label htmlFor="phone" className="block mb-2 font-medium text-ai-green">
                 Телефон
               </label>
               <Input
@@ -77,12 +77,12 @@ const ContactForm = () => {
                 required
                 value={formData.phone}
                 onChange={handleChange}
-                className="bg-ai-dark/50 border-ai-light/20 focus:border-ai-blue"
+                className="bg-ai-dark/50 border-ai-light/20 focus:border-ai-blue text-ai-light"
               />
             </div>
             
             <div>
-              <label htmlFor="email" className="block mb-2 font-medium">
+              <label htmlFor="email" className="block mb-2 font-medium text-ai-green">
                 Email
               </label>
               <Input
@@ -93,12 +93,12 @@ const ContactForm = () => {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="bg-ai-dark/50 border-ai-light/20 focus:border-ai-blue"
+                className="bg-ai-dark/50 border-ai-light/20 focus:border-ai-blue text-ai-light"
               />
             </div>
             
             <div>
-              <label htmlFor="message" className="block mb-2 font-medium">
+              <label htmlFor="message" className="block mb-2 font-medium text-ai-green">
                 Сообщение (необязательно)
               </label>
               <Textarea
@@ -108,7 +108,7 @@ const ContactForm = () => {
                 rows={4}
                 value={formData.message}
                 onChange={handleChange}
-                className="bg-ai-dark/50 border-ai-light/20 focus:border-ai-blue resize-none"
+                className="bg-ai-dark/50 border-ai-light/20 focus:border-ai-blue text-ai-light resize-none"
               />
             </div>
             
