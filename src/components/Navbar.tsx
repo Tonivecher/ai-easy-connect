@@ -73,6 +73,12 @@ const Navbar = () => {
             >
               Roadmap
             </button>
+            <button
+              onClick={() => scrollToSection('whats-next')}
+              className="text-ai-light hover:text-ai-blue transition-colors font-medium"
+            >
+              Что дальше?
+            </button>
             <Button 
               onClick={() => scrollToSection('contact-form')}
               className="btn-primary"
@@ -124,6 +130,12 @@ const Navbar = () => {
             className="block w-full text-left py-2 text-ai-light hover:text-ai-blue"
           >
             Roadmap
+          </button>
+          <button
+            onClick={() => scrollToSection('whats-next')}
+            className="block w-full text-left py-2 text-ai-light hover:text-ai-blue"
+          >
+            Что дальше?
           </button>
           <Button 
             onClick={() => scrollToSection('contact-form')}

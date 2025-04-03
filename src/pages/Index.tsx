@@ -7,6 +7,7 @@ import Pricing from '@/components/Pricing';
 import About from '@/components/About';
 import AboutExtended from '@/components/AboutExtended';
 import Roadmap from '@/components/Roadmap';
+import WhatsNext from '@/components/WhatsNext';
 import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 
@@ -31,6 +32,7 @@ const Index = () => {
       <About />
       <AboutExtended />
       <Roadmap />
+      <WhatsNext />
       <ContactForm />
       <Footer />
     </div>
