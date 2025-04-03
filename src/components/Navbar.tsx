@@ -62,10 +62,16 @@ const Navbar = () => {
               Стоимость
             </button>
             <button
-              onClick={() => scrollToSection('about')}
+              onClick={() => scrollToSection('about-extended')}
               className="text-ai-light hover:text-ai-blue transition-colors font-medium"
             >
               О нас
+            </button>
+            <button
+              onClick={() => scrollToSection('roadmap')}
+              className="text-ai-light hover:text-ai-blue transition-colors font-medium"
+            >
+              Roadmap
             </button>
             <Button 
               onClick={() => scrollToSection('contact-form')}
@@ -108,10 +114,16 @@ const Navbar = () => {
             Стоимость
           </button>
           <button
-            onClick={() => scrollToSection('about')}
+            onClick={() => scrollToSection('about-extended')}
             className="block w-full text-left py-2 text-ai-light hover:text-ai-blue"
           >
             О нас
+          </button>
+          <button
+            onClick={() => scrollToSection('roadmap')}
+            className="block w-full text-left py-2 text-ai-light hover:text-ai-blue"
+          >
+            Roadmap
           </button>
           <Button 
             onClick={() => scrollToSection('contact-form')}
